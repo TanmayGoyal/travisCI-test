@@ -9,5 +9,4 @@ deploy:
     secure: af3e83a4804ef9f2ca27f3f4b2f2a4aae8abfaa4
   file: configure
   skip_cleanup: true
-  on:
-    tags: true
+  
