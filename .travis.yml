@@ -1,6 +1,4 @@
 language: cpp
 dist: trusty
 sudo: required
-install:
-  - make
-  - ./configure
+script: make
