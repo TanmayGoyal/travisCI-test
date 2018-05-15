@@ -6,7 +6,7 @@ script: make
 deploy:
   provider: releases
   api_key:
-    secure: af3e83a4804ef9f2ca27f3f4b2f2a4aae8abfaa4
+    secure: b848cdf1e62245f158231b5e5558de15d2432f02
   file: configure
   skip_cleanup: true
   
