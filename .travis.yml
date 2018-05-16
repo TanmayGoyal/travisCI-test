@@ -2,6 +2,8 @@ language: cpp
 dist: trusty
 sudo: required
 script: make
+
+before_script: echo $api_key
 deploy:
   provider: releases
   api_key:
