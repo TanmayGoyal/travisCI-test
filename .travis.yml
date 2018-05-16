@@ -4,8 +4,6 @@ sudo: required
 script: make
 deploy:
   provider: releases
-  api_key:
-    secure: Ub9neSF3L15ckO4M6oeoPxxNfcfMSEkbmeN0UZAqLlC+IfVccl+TWNMeIybWb+rOZexyGft3jpm8YN2uiacpg1/e2/jfeOHG/z10D1pbZ8BmO+XhOGZ6Gup63/VkMz0jgxJ8nac1L4MQ+aqW/YWQsyagFdVQLEZUDSuPzw8jWRrrSnKIVDOl5y2QLR99EyfEMV0zDi+wAo3RsfNM3aLNaAebQnFGrXmjGzF+Jf1tEH0YJeF4FfCVlZ70aUvRylWMO8x8Em6Ct6fVjRQVu1YRoDFxaX3JrDyXAdrregbNp/8bu4DHP364b8zqIw4anvGdcj2COK3qZG7EXibdJ4CkuS8ZW53NjwaFotULOXRPdPSpIhYDYRmyjbm6kyQ5SRYr40YsXkQr/rQY38D7780VoaZJou1Zf67/t46IW4PBLJ2YNKBBBC02WedFyFcq6rnQD1mApjUfDjIRrveG8qay+f9sHBT+JTW+M4hddA5S1w8fzjf6AOMtb6Dn67LfsL+rfTajBdKR2Zp2DtI1oc5/ctuXcpXp3wAbK9xfc/25zsX52IWnDzA5XA7rYoMhCcqe5OdhAwuNHCFifUa1FFzRh6u7464DobDfKKURQ0de2nQDj/sIHLymszgJ09WCaFjL3eR1iVl70qmoOdCrFmleui0c+QlUo6HrJE2HHdGJTwc=
   file: configure
   on:
     repo: TanmayGoyal/travisCI-test
