@@ -5,7 +5,10 @@ script: make
 deploy:
   provider: releases
   api_key:
-    secure: cXh8IrA4Qljx/VsznVDULiheztoWe5924SHSBVr89f1GXz2zaiWW/xDQYyhlHgJrk0xF0D5YPrajgoYpROqfOOl7roxm/nvu03EX80GT7AGd9m03caw/YNXH/lXwBM9buL6EOWcg51Q1eXvmqY/UhI/DEvxzntAzydbyAQyqYKYqGCcTYVnT9po8sypjIpTwn46jRbWtVvIKNxf1U6R1QlCjX8Naoh+YGyc/KI3TvMlHWjOw6sRbjNZmIVtWgI1T7NVPk7pKVph/AO7XKmvscfJAM3FETkiDAQP9VrRZRMw7my2aZud9nu0BUS80qfkkDcAtl3HV6e1ciTfngDoSEu75jtriUhTvwG232gPh2X9xCL0jOuaCVR28xoXvwP2smalsymzUWb8RS9sHtHb/OLHSIeHeTdfozJJ1ddi0cMZqo8D3icuKb1/Sb1Cgz1xu5s9oGNtliFdihx7S5N4oQfrVLSwK0vkj5K5iIP4U1F5s4XwkfQ3MK3OD0rC/LIZTzbi8ePK4ned1e+ga641J7Ef5v95ANYq2biKtAxUKNrFZGLHpMVj4K6Yp6GEN/dltJD8qqdc+oNq+21upuqW1mkS4jU68FXT9PdL1Fvy9GovF/uv2iS6mI5vgDMBkbu3AA9DYOC3NixSQIG9XOL3ThdrLlWB/LeANk6IDfkV4Fg8=
+    secure: api_key
   file: configure
   on:
     repo: TanmayGoyal/travisCI-test
+
+env:
+  - api_key
