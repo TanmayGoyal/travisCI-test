@@ -2,9 +2,13 @@ language: cpp
 dist: trusty
 sudo: required
 script: make
-# before_script: echo $api_key
+
+before_script: echo $api_key
 deploy:
-  provider: GitHub
-  api_key:
-    secure: XF+7kl9eWXKfMi5oL518qXrPWmIr2FH7yoH3tjBun/XRuqyqfz3jsSK75efvmv+hTIjGN22r8+2C4aXp1k4ng9SZUSjnEM4dEuUg5gwO13xMbhait4z0cB/2IYH8QdTX7iK1d8tCU35Wlhq6jB9Qg9/nf2CR4PZYobMvTzmI0j6ayzEyk6O28hrUjpdlY4YTfjWbK3Ax1656Uh54ySHjJPzrBy6bftbzi36lfZZAPrqJmB5Ib2ruQQaaC8rxMXHf3Xi2EGhOObG9auwfzfBeeoVafA/jw7UR9IIeB9o9YeMZqMac2fhYinYyq8uaUcwiiu3m+ZiBxvjPvcowCGKfPcjusC427CaGKBnwNOHDOJWa5Gt1HVKdrsL99KHkbMxmZyaElq0f+/uRs/eJKhH61kjbe4hxbOTpXJhux7dgi6vBg/+5lq0lxXqRnqnXDz2FZ8mwH9PKdMBgH5sRLZage45jQgltuYu6AOTW5NPPlN3syRDlIKvq6MRBqLmyMdtYNqozlLQBDqg4sVf0thWrAc5LBA5Ig9dkcVJQQxVP7Bw3VbvK/WLObHAEkdBofpDXV/fWDAoB8NBO2tY3gOprUpApuPwBcRN1kRyWM752x5sV5YljiwNpltWc9OMu6wp30avO5A27z1sdHRvRvZ5ZZPv7Ym9rCWL1z55Hb2IrQXo=
+  provider: releases
+  api_key: "$api_key"
+    # secure: $api_key
   file: configure
+  on:
+    repo: TanmayGoyal/travisCI-test
+
