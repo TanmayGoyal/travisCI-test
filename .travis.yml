@@ -6,7 +6,7 @@ script: make
 before_script: echo $api_key
 deploy:
   provider: releases
-  api_key: "$api_key"
+  api_key: $api_key
     # secure: $api_key
   file: configure
   on:
